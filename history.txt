@@ -1,5 +1,14 @@
 ==================================================
 [SECTION 1: HARDWARE FAULT SIGNATURE]
-python3: can't open file '/workspaces/Finals/fault_seed': [Errno 2] No such file or directory
+python3: can't open file '/workspaces/Finals/fault_seed.py': [Errno 2] No such file or directory
 
 --- BASELINE CRASH LOG ---
+[SYSTEM] Avionics Bus initialized for Signature: TEST1234
+--- Launching Avionics Bus Master [Threads: 3] ---
+--- Telemetry Loop Terminated ---
+Total Register Writes: 36
+
+--- FINAL AVIONICS BUS REGISTER STATE ---
+Channel [LIDAR_FRONT ] -> Packets: 12 | Latest: 4.5092V | Status: SYNCED
+Channel [GPS_MAIN    ] -> Packets: 12 | Latest: 4.9393V | Status: SYNCED
+Channel [IMU_NAV     ] -> Packets: 12 | Latest: 0.5455V | Status: SYNCED

@@ -1,0 +1,6 @@
+{
+  "signature_hash": "TEST1234",
+  "buffer_overflow_threshold": 25,
+  "imu_voltage_drift": 1.0,
+  "bus_race_delay_sec": 0.002
+}
